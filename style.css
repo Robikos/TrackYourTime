@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.div-app {
+  display: table;
+  margin: 20pt;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.entries {
+  float: left;
+  width: 800px;
+}
+
+.add-time-button {
+  float: left;
+  margin-right: 10px;
+}
+
+/*div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}*/
+
+.entry {
+  width: 100%;
+  height: 50px;
+}
+
+.entry-title-outer, .entry-time-outer, .toggle-button-outer{
+  height: 100%;
+  float: left;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.entry-title-outer {
+  padding-left: 20px;
+  width: 480px;
+}
+
+.entry-time-outer {
+}
+
+.toggle-button-outer {
+  margin-left: 20px;
+}
+
+.entry-title, .entry-time, .toggle-button{
+  display: table;
+}
+
+.entry-time {
+  font-size: 24pt;
+}
+
+.sum-entry {
+  width: 700px;
+}
+
+.entries-outer {
+  display: table;
+}
+
+hr {
+  width: 70%;
+}
+
+#delete {
+  margin-left: 10px;
+}
